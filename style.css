@@ -1,57 +1,49 @@
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 20px;
   background-color: #f9f9f9;
+  color: #333;
 }
-
-
-.highlight {
-  color: rgba(8, 8, 234, 0.767);
-  text-decoration: underline;
-}
-
 
 table {
-  width: 65%;
-  margin: 15px auto;
+  width: 60%;
+  margin: 20px auto;
   border-collapse: collapse;
   background-color: white;
 }
-
 td {
-  border: 1px solid rgba(97, 35, 35, 0.816);
+  border: 1px solid black;
   padding: 10px;
 }
-
 
 #contact-form {
   background-color: #e6f0ff;
   width: 50%;
-  margin: auto;
-  padding: 20px;
-  border-radius: 8px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 input, textarea {
   width: 95%;
   padding: 8px;
   margin-top: 5px;
-  border: 1px solid #a52095;
+  border: 1px solid #999;
   border-radius: 4px;
 }
 
+textarea:hover {
+  border-color: blue;
+  background-color: #f0f8ff;
+}
 
 input[type="submit"] {
-  background-color: darkblue;
+  background-color: blue;
   color: white;
   border: none;
   padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
 }
-
-
-input[type="submit"]:hover {
-  background-color: navy;
-}
+ 
