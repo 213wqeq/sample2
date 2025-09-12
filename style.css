@@ -1,0 +1,57 @@
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+
+.highlight {
+  color: rgba(8, 8, 234, 0.767);
+  text-decoration: underline;
+}
+
+
+table {
+  width: 65%;
+  margin: 15px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  border: 1px solid rgba(97, 35, 35, 0.816);
+  padding: 10px;
+}
+
+
+#contact-form {
+  background-color: #e6f0ff;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, textarea {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #a52095;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: navy;
+}
